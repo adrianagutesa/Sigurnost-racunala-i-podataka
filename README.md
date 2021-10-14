@@ -1,2 +1,2 @@
 # Sigurnost-racunala-i-podataka
-Repozitorij za kolegij Sigurnost računala i podataka
+Izvještaji s laboratorijskih vježbi za kolegij Sigurnost računala i podataka
