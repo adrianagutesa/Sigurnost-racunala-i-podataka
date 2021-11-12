@@ -91,14 +91,15 @@ def verify_MAC(key, signature, message):
         return True
 
 if __name__ == "__main__":
-		key = "gutesa_adriana".encode()
+	
+    key = "gutesa_adriana".encode()
     path = os.path.join("challenges", "gutesa_adriana", "mac_challenge")
-
+    
     for ctr in range(1, 11):
         msg_filename = f"order_{ctr}.txt"
-				file_path_msg = os.path.join(path, msg_filename)
+	file_path_msg = os.path.join(path, msg_filename)
         sig_filename = f"order_{ctr}.sig"
-				file_path_sig = os.path.join(path, sig_filename)
+	file_path_sig = os.path.join(path, sig_filename)
 
         with open(file_path_msg, "rb") as file:
             message = file.read()
