@@ -69,7 +69,9 @@ print(is_authentic)
 
 Funkciji *verify_signature_rsa* šaljemo potpis i sliku jer će se sa slikom izračunati njezina hash vrijednost, a potpis ćemo dekodirati s javnim ključem i usporediti dobivene vrijednosti. Za prvu sliku smo dobili ispis *False* što znači da ne možemo utvrditi autentičnost slike dok smo za drugu dobili *True* što znači da je slika autentična.
 
-![Snimka zaslona 2021-12-08 220831.png](Laboratorijske%20vjez%CC%8Cbe%204%20bfa4eb7403ef40a686a65c1e18602f50/Snimka_zaslona_2021-12-08_220831.png)
+
+![Snimka zaslona 2021-12-08 220831](https://user-images.githubusercontent.com/73557717/145285130-944513d3-9e35-4d62-999b-d9271f9feac7.png)
+
 
 # **Password-hashing (iterative hashing, salt, memory-hard functions)**
 
@@ -251,4 +253,4 @@ U ispisu vidimo vrijeme potrebno za izvođenje pojedinih funkcija te povećavanj
 
 Ukoliko štitimo jako bitne podatke kojima ne pristupamo tako često možemo koristiti veliki broj (milijun) iteracija hashiranja iako traje predugo, ali će vjerojatnost napada biti manja  no ukoliko nemamo tako bitne podatke, a često se hashiraju možemo koristiti kriptografske hash funkcije kako bi ubrzali sustav, ali postoji rizik od napada.
 
-![Snimka zaslona 2021-12-08 220923.png](Laboratorijske%20vjez%CC%8Cbe%204%20bfa4eb7403ef40a686a65c1e18602f50/Snimka_zaslona_2021-12-08_220923.png)
+![Snimka zaslona 2021-12-08 220923](https://user-images.githubusercontent.com/73557717/145285202-12208d0b-7c80-41f1-85cd-8848b880e8ce.png)
