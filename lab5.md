@@ -30,11 +30,11 @@ Započinjemo napad:
 hydra -l gutesa_adriana -P dictionary/g3/dictionary_online.txt 10.0.15.2 -V -t 4 ssh
 ```
 
-![Snimka zaslona 2022-01-11 110710.png](Laboratorijske%20vjez%CC%8Cbe%205%201b03854196984a68a4e8993119d22cc3/Snimka_zaslona_2022-01-11_110710.png)
+![Snimka zaslona 2022-01-11 110710](https://user-images.githubusercontent.com/73557717/149668643-86de9be7-e822-48aa-89bb-dca426c68b83.png)
 
 Otkrivenim *password-om* se sada možemo ulogirati u SSH.
 
-![Snimka zaslona 2022-01-11 110756.png](Laboratorijske%20vjez%CC%8Cbe%205%201b03854196984a68a4e8993119d22cc3/Snimka_zaslona_2022-01-11_110756.png)
+![Snimka zaslona 2022-01-11 110756](https://user-images.githubusercontent.com/73557717/149668646-84cb4c88-007f-4826-9051-89ab4eda1f50.png)
 
 ---
 
