@@ -20,7 +20,7 @@ U *Linux*-u svaka datoteka ili program (*binary executable file*) ima vlasnika (
     - kako bismo kreirali bob3 korisnika nakon što smo kreirali alice3, trebamo izvršiti naredbu ***exit*** kako bi se vratili u *shell* korisnika koj je član grupe ***sudo***
     - kreiranjem korisnika svaki od njih dobije svoj *UID* i *GID*
     
-    ![Snimka zaslona 2022-01-11 112239.png](Laboratorijske%20vjez%CC%8Cbe%206%204186fad1f3e84c0991fe107d3eca00fe/Snimka_zaslona_2022-01-11_112239.png)
+    ![Snimka zaslona 2022-01-11 112239](https://user-images.githubusercontent.com/73557717/149673361-5390183a-cb8d-40f8-9ac0-ed6e93852b18.png)
     
 
 ---
